@@ -4,10 +4,12 @@ body{
 :root{
     --article-color: #212121;
     --article-descr-color:#757575;
+    --section-background-color:#2F303A;
+    --btns-links-color:#2196F3; 
 }
 .logo{
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
     color: #2196F3;
@@ -23,39 +25,39 @@ body{
 }
 .menu{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
 }
 .menu:hover{
-    color: #2196F3;
+    color: var(--btns-links-color)
 }
 .menu:active{
-    color: #2196F3;  
+    color: var(--btns-links-color) 
 }
 .menu:focus{
-    color: #2196F3;
+    color: var(--btns-links-color)
 }
 .contacts{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
 }
 .contacts:hover{
-    color: #2196F3;
+    color: var(--btns-links-color)
 }
 .contacts:focus{
-    color: #2196F3; 
+    color: var(--btns-links-color)
 }
 .contacts:active{
-    color: #2196F3;
+    color: var(--btns-links-color)
 }
 .hero{
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
@@ -63,39 +65,40 @@ body{
     color: #FFFFFF; 
 }
 .section-background{
-    background: #2F303A;
+    background: var(--section-background-color)
 }
 .btn-order{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     /* identical to box height, or 188% */
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    background: var(--btns-links-color)
 }
+    
 .advantages{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--article-color)
 }
 .advantages-descr{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
     color: var(--article-descr-color)
 }
 .occupation{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--article-color)
@@ -105,14 +108,14 @@ body{
 }
 .team{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .name{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
@@ -120,21 +123,21 @@ body{
 }
 .position{
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.1875;
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--article-descr-color)
 }
 .footer-background{
-    background: #2F303A;
+    background: var(--section-background-color)
 }
 .logo-footer{
     color: #FFFFFF;
 }
 .adress{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -142,7 +145,7 @@ body{
 }
 .portfolio-categories{
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625;
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
@@ -150,27 +153,27 @@ body{
     cursor: pointer;
 }
 .portfolio-categories:hover{
-    background-color: #2196F3;
     color: #FFFFFF;
+    background-color: var(--btns-links-color)
 }
 .portfolio-categories:focus{
-    background-color: #2196F3;
     color: #FFFFFF;
+    background-color: var(--btns-links-color)
 }
 .portfolio-categories:active{
-    background-color: #2196F3;
     color: #FFFFFF;
+    background-color: var(--btns-links-color)
 }
 .project{
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
     color: var(--article-color) 
 }
 .portfolio-categories-item{
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
     color: var(--article-descr-color)
