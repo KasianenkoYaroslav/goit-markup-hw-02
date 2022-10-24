@@ -1,6 +1,10 @@
 body{
     font-family: "Roboto", "Raleway";
 }
+:root{
+    --article-color: #212121;
+    --article-descr-color:#757575;
+}
 .logo{
     font-size: 26px;
     line-height: 31px;
@@ -80,21 +84,21 @@ body{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color:var(--article-color)
 }
 .advantages-descr{
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--article-descr-color)
 }
 .occupation{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--article-color)
 }
 .section-background-workers{
     background: #F5F4FA;
@@ -112,7 +116,7 @@ body{
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--article-color)
 }
 .position{
     font-size: 16px;
@@ -120,7 +124,7 @@ body{
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--article-descr-color)
 }
 .footer-background{
     background: #2F303A;
@@ -162,12 +166,12 @@ body{
     line-height: 36px;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--article-color) 
 }
 .portfolio-categories-item{
     font-size: 16px;
     line-height: 30px;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--article-descr-color)
 }
